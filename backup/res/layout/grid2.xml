@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="@drawable/grey_gradient">
+
+     <TextView
+         android:id="@+id/g2name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/ImageView03"
+         android:layout_below="@+id/imageView1"
+         android:layout_toLeftOf="@+id/ImageView01"
+         android:layout_toRightOf="@+id/imageView1"
+         android:text="Medium Text"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <ImageView
+                 android:id="@+id/imageView1"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:padding="5dp"
+                 android:background="@drawable/oval"
+                 android:src="@drawable/pokeimg2" />
+    
+     <TextView
+        android:id="@+id/g2pokeStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_margin="1dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:padding="5dp"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/oval"
+        android:src="@drawable/punchimg2" />
+    
+         <TextView
+        android:id="@+id/g2punchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageView01"
+
+        android:layout_alignRight="@+id/ImageView01"
+        android:layout_alignBottom="@+id/ImageView01"
+        android:layout_margin="1dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:padding="5dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/oval"
+        android:src="@drawable/hugimg2" />
+    
+             <TextView
+        android:id="@+id/g2kissStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageView02"
+
+        android:layout_alignRight="@+id/ImageView02"
+        android:layout_alignBottom="@+id/ImageView02"
+        android:layout_margin="1dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#000000" />
+             
+    <ImageView
+        android:id="@+id/ImageView03"
+android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:padding="8dp"
+        android:layout_alignLeft="@+id/ImageView01"
+        android:layout_alignTop="@+id/ImageView02"
+        android:background="@drawable/oval"
+        android:scaleType="centerInside"
+        android:src="@drawable/kissimg2" />
+    
+             <TextView
+        android:id="@+id/g2hugStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ImageView03"
+
+        android:layout_alignRight="@+id/ImageView03"
+        android:layout_alignBottom="@+id/ImageView03"
+        android:layout_margin="1dp"
+        android:layout_marginTop="6dp"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#000000" />
+
+             
+
+            
+</RelativeLayout>

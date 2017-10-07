@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.poke_1.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Refresh Contacts"
+        app:showAsAction="never"/>
+     <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="101"
+        android:title="Share your Level"
+        app:showAsAction="never"/>
+      <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="102"
+        android:title="Invite Friends"
+        app:showAsAction="never"/>
+
+</menu>

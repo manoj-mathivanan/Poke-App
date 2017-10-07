@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#161616"
+    tools:context="com.example.pokeui1.MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="144dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="center"
+        android:src="@drawable/tile" />
+
+    <ListView
+        android:id="@+id/ctlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:layout_below="@+id/imageView1"
+		android:focusable="true"
+        android:gravity="center"
+        android:verticalSpacing="3dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="2dp"
+        android:text="Poke"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="38dp" />
+
+    <com.manoj.oye.TextProgressBar
+        android:id="@+id/pbcontacts"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_alignParentLeft="true"
+        android:max="100"
+        android:maxHeight="30dip"
+        android:minHeight="30dip"
+        android:progress="0" />
+<TextView
+        android:id="@+id/contactscount"
+        android:layout_width="24dp"
+        android:gravity="center"
+        android:layout_height="24dp"
+        android:layout_alignRight="@+id/pbcontacts"
+        android:layout_alignTop="@+id/pbcontacts"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:text="30"
+        android:textSize="10dip"
+        android:background="@drawable/layout_diff"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+    <com.manoj.oye.TextProgressBar
+        android:id="@+id/pbpokes"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_below="@+id/level"
+        android:max="100"
+        android:maxHeight="30dip"
+        android:minHeight="30dip"
+        android:progress="0" />
+
+<TextView
+        android:id="@+id/pbpokescount"
+        android:layout_width="24dp"
+        android:gravity="center"
+        android:layout_height="24dp"
+        android:layout_alignRight="@+id/pbpokes"
+        android:layout_alignTop="@+id/pbpokes"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="3dp"
+        android:text="80"
+        android:textSize="10dip"
+        android:background="@drawable/layout_diff"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF" />
+
+<TextView
+    android:id="@+id/level"
+    android:layout_width="39dp"
+    android:layout_height="39dp"
+    android:layout_alignBaseline="@+id/TextView01"
+    android:layout_alignBottom="@+id/TextView01"
+    android:layout_marginRight="14dp"
+    android:layout_toLeftOf="@+id/TextView01"
+    android:background="@drawable/layout_level"
+    android:gravity="center"
+    android:text="L1"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#FFFFFF"
+    android:textSize="25dip" />
+
+<ImageView
+    android:id="@+id/TextView01"
+    android:layout_width="39dp"
+    android:layout_height="39dp"
+    android:layout_alignBottom="@+id/textView1"
+    android:layout_alignRight="@+id/pbpokescount"
+    android:background="@drawable/layout_refresh"
+    android:scaleType="centerInside"
+    android:onClick="refresh"
+    android:src="@drawable/refresh" />
+
+</RelativeLayout>

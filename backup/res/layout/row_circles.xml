@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rcbcontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/row_background" >
+
+    <ImageView
+        android:id="@+id/rcimageView1"
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/rect_status_green" />
+
+    <TextView
+        android:id="@+id/rctextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/rcimageView1"
+        android:fontFamily="Bradley Hand ITC"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:text="Mediypum Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/rcImageView05"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/rctextView1"
+        android:layout_below="@+id/rctextView1"
+        android:background="@drawable/oval"
+        android:padding="4dp"
+        android:src="@drawable/punchimg2" />
+
+    <ImageView
+        android:id="@+id/rcImageView03"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/rctextView1"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/rcImageView05"
+        android:background="@drawable/oval"
+        android:padding="4dp"
+        android:src="@drawable/pokeimg2" />
+
+    <LinearLayout
+        android:id="@+id/rclinearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rcapunch"
+        android:layout_alignRight="@+id/rcapunch"
+        android:layout_below="@+id/rcapunch"
+        android:gravity="center"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/rcimageView2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/winning_down" />
+
+        <TextView
+            android:id="@+id/rcTextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rcapunch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/rcImageView03"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/rcImageView01"
+        android:background="@drawable/oval"
+        android:padding="4dp"
+        android:src="@drawable/hugimg2" />
+
+    <TextView
+        android:id="@+id/rctextView3"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignTop="@+id/rcImageView05"
+        android:layout_toLeftOf="@+id/rcImageView03"
+        android:background="@drawable/oval_blue"
+        android:paddingLeft="4dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/rcTextView08"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignTop="@+id/rcImageView03"
+        android:layout_toLeftOf="@+id/rcImageView01"
+        android:background="@drawable/oval_blue"
+        android:paddingLeft="4dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/rcTextView10"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignRight="@+id/rcapunch"
+        android:layout_alignTop="@+id/rcapunch"
+        android:background="@drawable/oval_blue"
+        android:paddingLeft="4dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_alignLeft="@+id/rcLinearLayout03"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/rcLinearLayout03"
+        android:layout_toLeftOf="@+id/rcLinearLayout02" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/rcImageView01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/rcapunch"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/rcImageView03"
+        android:background="@drawable/oval"
+        android:padding="4dp"
+        android:src="@drawable/kissimg2" />
+
+    <LinearLayout
+        android:id="@+id/rcLinearLayout03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rcImageView05"
+        android:layout_below="@+id/rcImageView05"
+        android:layout_toLeftOf="@+id/rcImageView03"
+        android:gravity="center"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/rcImageView06"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/winning_down" />
+
+        <TextView
+            android:id="@+id/rcTextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rcTextView09"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_below="@+id/rctextView1"
+        android:layout_toLeftOf="@+id/rcapunch"
+        android:background="@drawable/oval_blue"
+        android:paddingLeft="4dp"
+        android:text="5"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFFFF"
+        android:textSize="10dp" />
+
+    <LinearLayout
+        android:id="@+id/rcLinearLayout02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rcImageView03"
+        android:layout_below="@+id/rcImageView03"
+        android:layout_toLeftOf="@+id/rcImageView01"
+        android:gravity="center"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/rcImageView04"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/winning_down" />
+
+        <TextView
+            android:id="@+id/rcTextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rcLinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rcImageView01"
+        android:layout_below="@+id/rcImageView01"
+        android:layout_toLeftOf="@+id/rcapunch"
+        android:gravity="center"
+        android:paddingLeft="4dp" >
+
+        <ImageView
+            android:id="@+id/rcImageView02"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/winning_down" />
+
+        <TextView
+            android:id="@+id/rcTextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FF0000"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

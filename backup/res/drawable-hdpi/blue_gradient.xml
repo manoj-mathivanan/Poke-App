@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" >
+                
+        <bitmap
+            android:src="@drawable/poke" />
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#0582FF"
+                android:endColor="#C4E2FF"
+                android:angle="270" />
+            <corners
+                android:radius="4dp" />
+        </shape>
+    </item>
+</selector>

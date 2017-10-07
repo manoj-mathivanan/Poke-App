@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#161616"
+    android:gravity="center"
+	android:paddingBottom="2dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="3dp" >
+
+    <RelativeLayout
+        android:id="@+id/rowlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/layout_bg"
+        android:gravity="center|left"
+        android:minHeight="78dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="5dp" >
+
+        <ImageView
+            android:id="@+id/down"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/up"
+            android:layout_below="@+id/up"
+            android:src="@drawable/color_down" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/up"
+            android:layout_marginTop="3dp"
+            android:layout_toLeftOf="@+id/newpokes"
+            android:layout_toRightOf="@+id/up"
+            android:paddingLeft="13dp"
+            android:text="Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/up"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/color_up" />
+
+        <TextView
+            android:id="@+id/diff"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_alignLeft="@+id/up"
+            android:layout_alignTop="@+id/up"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/layout_diff"
+            android:gravity="center"
+            android:text="29"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#FFFFFF"
+            android:textSize="10dip" />
+
+<TextView
+    android:id="@+id/sent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/recv"
+    android:layout_alignBottom="@+id/recv"
+    android:layout_toRightOf="@+id/recv"
+    android:textStyle="normal|italic"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="5dp"
+    android:text="S: "
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#A3A3A3" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="26dp"
+    android:layout_height="26dp"
+    android:layout_alignBottom="@+id/sent"
+    android:layout_alignRight="@+id/newpokes"
+    android:focusable="false"
+    android:scaleType="centerInside"
+    android:src="@drawable/no_mesage" />
+
+<TextView
+    android:id="@+id/recv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/name"
+    android:layout_alignTop="@+id/down"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="5dp"
+    android:text="R: "
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#A3A3A3"
+    android:textStyle="normal|italic" />
+
+<ImageView
+            android:id="@+id/up2"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-9dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/normal_up" />
+
+<TextView
+    android:id="@+id/newpokes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_marginTop="-3dp"
+    android:layout_alignParentTop="true"
+    android:text="3 new"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:textColor="#ED8045"
+    android:textSize="13dp" />
+
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>

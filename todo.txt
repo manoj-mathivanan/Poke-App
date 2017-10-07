@@ -1,0 +1,16 @@
+https://blog.pushbullet.com/2014/02/12/keeping-google-cloud-messaging-for-android-working-reliably-techincal-post/
+
+lev clicks pokes
+1 1000 1000 1000
+2 2000 4000 5000
+3 3000 9000 14000
+4 4000 16000 30000
+5 5000 25000 55000
+
+invite and share
+
+
+ AdSense account: Publisher ID: pub-6939430204552459
+ AdWords account: Customer ID: 467-897-8010
+ 
+ security details
